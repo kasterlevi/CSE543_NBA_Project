@@ -21,7 +21,7 @@ def split_train_test(data, test_ratio):
 # the training and testing errors and R-squared values are also calculated
 def model(n_trees):
     og_data = pd.read_csv(
-                 'NBA_Player_Stats.csv')
+                 'NBA_Player_StatsV2.csv')
     og_data = og_data.dropna()
     og_train_data, og_test_data = split_train_test(og_data, 0.2)
 
