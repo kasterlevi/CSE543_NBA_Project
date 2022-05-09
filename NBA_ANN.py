@@ -25,7 +25,7 @@ def split_train_test(data, test_ratio):
     return data.iloc[train_indices], data.iloc[test_indices]
 
 
-og_data = pd.read_csv('/location/to/NBA_Player_StatsV2.csv')
+og_data = pd.read_csv("https://raw.githubusercontent.com/kasterlevi/CSE543_NBA_Project/main/NBA_Player_StatsV2.csv")
 og_data = og_data.dropna()
 og_train_data, og_test_data = split_train_test(og_data, 0.2)
 
