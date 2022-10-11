@@ -1,7 +1,7 @@
 # CSE543_NBA_Project
 Software Package for the CSE 543T project with Yang Yi, Levi Kaster, Allen Huang, and Patrick Norrick.
 
-In this project we testest 5 different regression models for predicting the single-season points, rebounds, and assists of NBA Players. The models we tested were a kNN Regression model, a Linear Regression Model, A Random Forest Model, an Artifical Neural Network Model, and a Dense Neural Network.
+In this project we tested 5 different regression models for predicting the single-season points, rebounds, and assists of NBA Players. The models we tested were a kNN Regression model, a Linear Regression Model, A Random Forest Model, an Artifical Neural Network Model, and a Dense Neural Network.
 
 This project culminated in the following paper: [CSE543 Final Paper](https://github.com/kasterlevi/CSE543_NBA_Project/blob/main/CSE%20543T%20Final%20Project_%20NBA%20Machine%20Learning.pdf)
 
